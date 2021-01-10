@@ -1,0 +1,51 @@
+body{
+    background-image: url(/jason-leung-Xaanw0s0pMk-unsplash.jpg);
+    background-size: 100% 140%;
+}
+
+.wrapper{
+    border : 3px solid black;
+    width: 50%;
+    height:  50%;
+    padding: auto auto;
+    text-align: center;
+    margin : 25% auto;
+    padding : 1rem 1.2rem;
+    transform: translateY(-6rem);
+    box-shadow: 3px 6px 9px black;
+}
+header{
+    text-align: center;
+    margin : 25% auto;
+    background-color: cadetblue;}
+
+.wrapper h2{
+    text-decoration: underline;
+}
+
+ul li{
+   
+    text-align: start;
+    margin: 0.5rem 0.5rem;
+    border-bottom: 1.5px solid black;
+    padding-right: 0.3rem;
+    
+}
+
+
+.plates input {
+    display : none;
+}
+
+
+.plates input + label::before{
+    content : '⭕';
+    margin : 0rem 0.3rem;
+}
+
+.plates input:checked +label::before{
+    content : '✅'
+}
+ul {
+    list-style: none;
+}
